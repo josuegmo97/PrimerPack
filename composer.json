@@ -1,12 +1,22 @@
 {
     "name": "gabo/saludo",
     "description": "Mi saludo",
-    "authors": [
-        {
-            "name": "shinoblackss",
-            "email": "ejmagbriel97@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "shinoblackss",
+        "email": "ejmagbriel97@gmail.com"
+    }],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gabo\\Saludo\\": "packages/gabo/saludo/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gabo\\Saludo\\SaludoServiceProvider"
+            ]
+        }
+    }
 }
