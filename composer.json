@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Gabo\\Saludo\\": "packages/gabo/saludo/src/"
+            "Gabo\\Saludo\\": "src/"
         }
     },
     "extra": {
