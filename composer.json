@@ -1,0 +1,12 @@
+{
+    "name": "gabo/saludo",
+    "description": "Mi saludo",
+    "authors": [
+        {
+            "name": "shinoblackss",
+            "email": "ejmagbriel97@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
